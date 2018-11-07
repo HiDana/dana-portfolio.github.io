@@ -1,0 +1,224 @@
+[
+	{
+		"prj_name": "HAI",
+		"route_name": "hai",
+		"tech": "React / Redux / Rechart",
+		"secret": true,
+		"icon": null,
+		"section": [
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "hai_pic.png",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "數據源",
+						"content": [
+							"聯合國公開數據庫資料"
+						]
+					},
+					{
+						"title": "目標客群",
+						"content": [
+							"針對中盤商: 已有⽬目標的出⼝口國，期待多了解當地產品的可能需求為何",
+							"針對製造商: 已經有現成的產品，期待多開發可能的國際出⼝口市場"
+						]
+					}
+				]
+			},
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "hai_vedio.gif",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "負責部分",
+						"content": [
+							"前端網頁開發",
+							"。 landing page",
+							"。 應用頁面",
+							" - 出口產品 / 推薦出口",
+							" - 進口產品 / 推薦進口"
+						]
+					},
+					{
+						"title": "運用技術",
+						"content": [
+							"- React",
+							"- Redux",
+							"- Axios",
+							"- Rechart"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prj_name": "傳票文字探勘",
+		"route_name": "od-audit",
+		"tech": "D3.js / jquery",
+		"secret": false,
+		"icon": null,
+		"section": [
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "od-audit_vedio.gif",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "目標",
+						"content": [
+							"運用傳票做斷字處理，並運用視覺化顯示傳票之間的關係"
+						]
+					},
+					{
+						"title": "運用技術",
+						"content": [
+							"- jquery",
+							"- D3.js"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prj_name": "舌象小屋",
+		"route_name": "tongue",
+		"tech": "小程序 / 微信",
+		"secret": false,
+		"icon": "",
+		"section": [
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "min_pic.png",
+						"shadow": false
+					}
+				],
+				"info": [
+					{
+						"title": "應用平台",
+						"content": [
+							"微信小程序"
+						]
+					},
+					{
+						"title": "目標",
+						"content": [
+							"運用小程序採集 舌相照片",
+							"解決網頁版採集系統 照片及光源不清楚的部分，並藉由小程序收集到 微信會員資料"
+						]
+					}
+				]
+			},
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "od-audit_vedio.gif",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "負責部分",
+						"content": [
+							"小程序開發與部屬",
+							"- 舌相採集頁面",
+							"- 舌相清單"
+						]
+					},
+					{
+						"title": "運用技術",
+						"content": [
+							"- 小程序",
+							"- 微信登入(小程序、web)"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prj_name": "文化部",
+		"route_name": "od-moc",
+		"tech": "OSM",
+		"secret": false,
+		"icon": null,
+		"section": [
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "moc_vedio.gif",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "目標",
+						"content": [
+							"運用台灣故事島的資料，做文章斷詞，並用關鍵字顯示，讓人可以一目瞭然目前台灣的哪裡發生了哪些故事"
+						]
+					},
+					{
+						"title": "運用技術",
+						"content": [
+							"- jquery",
+							"- OSM(leafletjs/mapbox)"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"prj_name": "Mockingcat",
+		"route_name": "mockingcat",
+		"tech": "api.ai / line chatbot",
+		"secret": false,
+		"icon": null,
+		"section": [
+			{
+				"sec_name": "",
+				"prj_imgs": [
+					{
+						"name": "od-audit_vedio.gif",
+						"shadow": true
+					}
+				],
+				"info": [
+					{
+						"title": "目標",
+						"content": [
+							"運用 heroku 做後端 server 做一個會重複回話的 line 機器人"
+						]
+					},
+					{
+						"title": "運用技術",
+						"content": [
+							"- linechatbot",
+							"- python",
+							"- heroku"
+						]
+					}
+				]
+			}
+		]
+	}
+]

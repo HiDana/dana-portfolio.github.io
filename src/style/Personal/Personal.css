@@ -1,0 +1,8 @@
+#personal .dana {
+  width: 100vw;
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #personal .dana img {
+    width: 30%; }

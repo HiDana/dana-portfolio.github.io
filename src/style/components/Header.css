@@ -1,0 +1,40 @@
+#header {
+  position: relative;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000; }
+  #header .logo {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px; }
+    #header .logo a {
+      display: flex;
+      align-items: center;
+      padding: 5px; }
+    #header .logo img {
+      width: 21px;
+      height: 22px; }
+    #header .logo h1 {
+      font-size: 20px;
+      color: #121212;
+      margin-left: 30px; }
+  #header .menu {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px; }
+    #header .menu .portfoilo_link {
+      margin-right: 20px; }
+      #header .menu .portfoilo_link h4 {
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 2.7px;
+        color: #121212; }
+    #header .menu .menu_icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 20px; }
+      #header .menu .menu_icon img {
+        width: 100%; }

@@ -1,0 +1,74 @@
+#portfolio{
+	display: flex;
+	.title_block{
+		width: 430px;
+		height: calc(100vh - 90px);
+		padding: 305px 0 0 65px;
+		.title{
+			h2{
+				font-size: 30px;
+				font-weight: 500;
+				letter-spacing: 5.1px;
+				color: #121212;
+			}
+		}
+		.content{
+			p{
+				font-size: 12px;
+				font-weight: normal;
+				letter-spacing: 2px;
+				color: #121212;
+			}
+		}
+	}
+
+	.projects{
+		display: flex;
+		overflow-y: scroll;
+		padding-left: 20px;
+		.project{
+			width: 250px;
+			height: 320px;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.5);
+			border: 1px solid transparent;
+			background-color: #ffffff;
+			margin: 150px 20px 0 0;
+			cursor: pointer;
+			&:hover{
+				border: 1px solid rgba(206, 206, 206, 0.2);
+				box-shadow: none;
+			}
+			.prj_img{
+				width: 250px;
+				border-radius: 5px 5px 0 0;
+				overflow: hidden;
+				img{
+					width: 99%;
+				}
+			}
+			.prj_info{
+				height: 130px;
+				position: relative;
+				p{
+					color: #121212;
+				}
+				.prj_tech{
+					position: absolute;
+					top: 14px;
+					left: 20px;
+					font-size: 12px;
+					letter-spacing: 2px;
+				}
+				.prf_name{
+					position: absolute;
+					bottom: 20px;
+					right: 20px;
+					font-size: 14px;
+					letter-spacing: 2.4px;
+					text-align: right;
+				}
+			}
+		}
+	}
+}

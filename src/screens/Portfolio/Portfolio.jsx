@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../../style/Portfolio/Portfolio.css";
 
 import prjsData from "../../data/projects.json";
 // import prj1 from "../../images/portfolio/landingPage/prj1.png";

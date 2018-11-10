@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../style/Personal/Personal.css";
 
 // import dana from "../../images/personal/dana_8bit.jpg";
 import dana from "../../images/personal/dana_gif.gif";

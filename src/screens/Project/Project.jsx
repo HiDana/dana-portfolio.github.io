@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import "../../style/Project/Project.css";
 
 import prjsData from "../../data/projects.json";
 

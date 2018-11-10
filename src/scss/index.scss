@@ -7,3 +7,8 @@ box-sizing: border-box;
 font-size: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial';
 transition: .2s;
 }
+
+@import './components/Header.scss';
+@import './Personal/Personal.scss';
+@import './Portfolio/Portfolio.scss';
+@import './Project/Project.scss'

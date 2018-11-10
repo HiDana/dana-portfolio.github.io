@@ -55,8 +55,14 @@
 			.prj_img{
 				width: 540px;
 				margin-top: 90px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 				img{
-					width: 100%;
+					// width: 100%;
+					width: auto;
+					max-width: 100%;
+					max-height: 80vh;
 					box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.5);
 				}
 				.special_img{

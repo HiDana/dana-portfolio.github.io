@@ -6,3 +6,165 @@
   box-sizing: border-box;
   font-size: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial';
   transition: .2s; }
+
+#header {
+  position: relative;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000; }
+  #header .logo {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px; }
+    #header .logo a {
+      display: flex;
+      align-items: center;
+      padding: 5px; }
+    #header .logo img {
+      width: 21px;
+      height: 22px; }
+    #header .logo h1 {
+      font-size: 20px;
+      color: #121212;
+      margin-left: 30px; }
+  #header .menu {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px; }
+    #header .menu .portfoilo_link {
+      margin-right: 20px; }
+      #header .menu .portfoilo_link h4 {
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 2.7px;
+        color: #121212; }
+    #header .menu .menu_icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 20px; }
+      #header .menu .menu_icon img {
+        width: 100%; }
+
+#personal .dana {
+  width: 100vw;
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #personal .dana img {
+    width: 30%; }
+
+#portfolio {
+  display: flex; }
+  #portfolio .title_block {
+    width: 430px;
+    height: calc(100vh - 90px);
+    padding: 305px 0 0 65px; }
+    #portfolio .title_block .title h2 {
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 5.1px;
+      color: #121212; }
+    #portfolio .title_block .content p {
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 2px;
+      color: #121212; }
+  #portfolio .projects {
+    display: flex;
+    overflow-y: scroll;
+    padding-left: 20px; }
+    #portfolio .projects .project {
+      width: 250px;
+      height: 320px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.5);
+      border: 1px solid transparent;
+      background-color: #ffffff;
+      margin: 150px 20px 0 0;
+      cursor: pointer; }
+      #portfolio .projects .project:hover {
+        border: 1px solid rgba(206, 206, 206, 0.2);
+        box-shadow: none; }
+      #portfolio .projects .project .prj_img {
+        width: 250px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden; }
+        #portfolio .projects .project .prj_img img {
+          width: 99%; }
+      #portfolio .projects .project .prj_info {
+        height: 130px;
+        position: relative; }
+        #portfolio .projects .project .prj_info p {
+          color: #121212; }
+        #portfolio .projects .project .prj_info .prj_tech {
+          position: absolute;
+          top: 14px;
+          left: 20px;
+          font-size: 12px;
+          letter-spacing: 2px; }
+        #portfolio .projects .project .prj_info .prf_name {
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          font-size: 14px;
+          letter-spacing: 2.4px;
+          text-align: right; }
+
+#project {
+  margin-top: -90px; }
+  #project .page .fp-tableCell {
+    display: flex; }
+  #project .page .prj_info {
+    width: 350px;
+    background-color: #f4f4f4;
+    padding: 0 0 0 35px; }
+    #project .page .prj_info .prj_name {
+      width: 90%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 110px; }
+      #project .page .prj_info .prj_name h2 {
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 4.1px;
+        color: #0a4164; }
+    #project .page .prj_info .prj_contents .prj_content {
+      margin-top: 40px; }
+      #project .page .prj_info .prj_contents .prj_content .content_title {
+        margin-bottom: 10px; }
+        #project .page .prj_info .prj_contents .prj_content .content_title p {
+          font-size: 14px;
+          font-weight: normal;
+          letter-spacing: 2.4px;
+          color: #c5c5c5; }
+      #project .page .prj_info .prj_contents .prj_content .content_detail {
+        width: 80%;
+        margin: 0 0px 10px 20px;
+        text-align: inherit; }
+        #project .page .prj_info .prj_contents .prj_content .content_detail p {
+          font-size: 12px;
+          letter-spacing: 2px;
+          color: #868686; }
+  #project .page .prj_file {
+    width: calc(100vw - 350px);
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #project .page .prj_file .prj_img {
+      width: 540px;
+      margin-top: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #project .page .prj_file .prj_img img {
+        width: auto;
+        max-width: 100%;
+        max-height: 80vh;
+        box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.5); }
+      #project .page .prj_file .prj_img .special_img {
+        box-shadow: none; }

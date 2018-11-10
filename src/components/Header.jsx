@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../style/components/Header.css";
 
 import logo from "../images/hi_logo.png";
 import github from "../images/header/github.svg";

@@ -1,0 +1,43 @@
+@media all and (max-width: 760px) {
+	#project{
+		.page{
+			.fp-tableCell{
+				flex-direction: column-reverse;
+				align-items: center;
+			}
+			.prj_info{
+				width: 100%;
+				height: 50vh;
+				.prj_name{
+					justify-content: center;
+					margin:10px 0 0;
+				}
+
+				.prj_contents{
+					max-height: 35vh;
+					overflow-y: scroll;
+					.prj_content{
+						margin-top: 10px;
+						.content_title{
+							margin-bottom: 5px;
+						}
+						.content_detail{
+							margin:0 0px 5px 20px;
+						}
+					}
+				}
+			}
+			.prj_file{
+				width: 90%;
+				height: auto;
+				margin-bottom: 30px;
+				.prj_img{
+					img{
+						max-height: 35vh;
+					}
+				}
+			}
+
+		}
+	}
+}

@@ -52,3 +52,29 @@
         box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.5); }
       #project .page .prj_file .prj_img .special_img {
         box-shadow: none; }
+
+@media all and (max-width: 760px) {
+  #project .page .fp-tableCell {
+    flex-direction: column-reverse;
+    align-items: center; }
+  #project .page .prj_info {
+    width: 100%;
+    height: 50vh; }
+    #project .page .prj_info .prj_name {
+      justify-content: center;
+      margin: 10px 0 0; }
+    #project .page .prj_info .prj_contents {
+      max-height: 35vh;
+      overflow-y: scroll; }
+      #project .page .prj_info .prj_contents .prj_content {
+        margin-top: 10px; }
+        #project .page .prj_info .prj_contents .prj_content .content_title {
+          margin-bottom: 5px; }
+        #project .page .prj_info .prj_contents .prj_content .content_detail {
+          margin: 0 0px 5px 20px; }
+  #project .page .prj_file {
+    width: 90%;
+    height: auto;
+    margin-bottom: 30px; }
+    #project .page .prj_file .prj_img img {
+      max-height: 35vh; } }

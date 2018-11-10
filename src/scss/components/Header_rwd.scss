@@ -1,1 +1,9 @@
-@media all and (max-width: 760px) {}
+@media all and (max-width: 760px) {
+	#header{
+		.logo{
+				h1{
+					display: none;
+				}
+		}	
+	}
+}

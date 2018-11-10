@@ -54,3 +54,23 @@
           font-size: 14px;
           letter-spacing: 2.4px;
           text-align: right; }
+
+@media all and (max-width: 760px) {
+  #portfolio {
+    flex-direction: column; }
+    #portfolio .title_block {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      display: flex;
+      flex-direction: column; }
+      #portfolio .title_block .title, #portfolio .title_block .content {
+        display: flex;
+        justify-content: center; }
+    #portfolio .projects {
+      flex-direction: column;
+      align-items: center;
+      overflow-y: inherit;
+      padding: 0; }
+      #portfolio .projects .project {
+        margin: 20px 0 10px; } }

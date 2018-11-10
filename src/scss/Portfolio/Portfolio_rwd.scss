@@ -1,0 +1,26 @@
+@media all and (max-width: 760px) {
+	#portfolio{
+		flex-direction: column;
+		.title_block{
+			width: 100%;
+			height: auto;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			.title,.content{
+				display: flex;
+				justify-content: center;
+			}
+		}
+
+		.projects{
+			flex-direction: column;
+			align-items: center;
+			overflow-y: inherit;
+			padding:0;
+			.project{
+				margin: 20px 0 10px;
+			}
+		}
+	}
+}

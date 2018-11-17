@@ -1,0 +1,11 @@
+@media all and (max-width: 760px) {
+  #personal .dana_web {
+    display: none; }
+  #personal .dana_phone {
+    width: 100vw;
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #personal .dana_phone img {
+      width: 30%; } }

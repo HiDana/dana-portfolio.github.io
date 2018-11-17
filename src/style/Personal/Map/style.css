@@ -1,41 +1,16 @@
-#personal .header_landing {
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 10000;
-  background-color: #fff; }
-
-#personal .dana_web {
-  width: 100vw;
-  height: calc(100vh - 90px); }
-  #personal .dana_web .web_coverage {
-    width: 100vw;
-    height: calc(100vh - 0px);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 2000;
-    background: -webkit-linear-gradient(#fff, #fff 80px, rgba(255, 255, 255, 0.5) 100px, rgba(255, 255, 255, 0) 120px, rgba(255, 255, 255, 0)); }
-
-#personal .dana_phone {
-  display: none; }
-
-@media all and (max-width: 760px) {
-  #personal .dana_web {
-    display: none; }
-  #personal .dana_phone {
-    width: 100vw;
-    height: calc(100vh - 90px);
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    #personal .dana_phone img {
-      width: 30%; } }
-
 @font-face {
   font-family: 'codropsicons';
   font-weight: normal;
   font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: #47dbb4;
+  outline: none; }
+
+a:hover,
+a:focus {
+  color: #33b996; }
 
 .hidden {
   position: absolute;
@@ -48,7 +23,7 @@
 .container {
   position: fixed;
   z-index: -1;
-  top: 90px;
+  top: 0;
   left: 0; }
 
 /* Header */
@@ -63,7 +38,7 @@
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-  height: calc(100vh - 90px);
+  height: 100vh;
   min-height: 600px;
   padding: 2em 1em 4em;
   text-align: center;

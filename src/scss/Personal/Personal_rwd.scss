@@ -1,7 +1,17 @@
 @media all and (max-width: 760px) {
 	#personal{
-		.dana{
-			// border: 1px solid #a00;
+		.dana_web{
+			display: none;
+		}
+		.dana_phone{
+			width: 100vw;
+			height: calc(100vh - 90px);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 30%;
+			}
 		}
 	}
 }

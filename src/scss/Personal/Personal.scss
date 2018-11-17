@@ -1,15 +1,32 @@
 #personal{
-	.dana{
+	.header_landing{
+		width: 100vw;
+		position: fixed;
+		top: 0;
+		z-index: 10000;
+		background-color: #fff;
+	}
+	.dana_web{
 		width: 100vw;
 		height: calc(100vh - 90px);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		img{
-			width: 30%;
-		}
+		.web_coverage{
+			width: 100vw;
+			height: calc(100vh - 0px);
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			z-index: 2000;
+			background: -webkit-linear-gradient(#fff, #fff 80px, rgba(255,255,255,.5) 100px, rgba(255,255,255,.0) 120px ,rgba(255,255,255,.0));
+		}	
+	}
+	.dana_phone{
+		display: none;
+		
 	}
 }
 
-@import './Personal_rwd.scss'
+@import './Personal_rwd.scss';
+// map scss
+@import './Map/Map.scss';
+
 

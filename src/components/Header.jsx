@@ -10,10 +10,10 @@ class Header extends Component {
     return (
       <div id="header">
         <div className="logo">
-          <Link to="/">
+          <a href="/">
             <img src={logo} alt="hiDana" />
             <h1>DANA</h1>
-          </Link>
+          </a>
         </div>
 
         <div className="menu">

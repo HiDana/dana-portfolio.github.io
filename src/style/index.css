@@ -29,6 +29,8 @@
       font-size: 20px;
       color: #121212;
       margin-left: 30px; }
+  #header .logo_phone {
+    display: none; }
   #header .menu {
     height: 90px;
     display: flex;
@@ -49,8 +51,12 @@
         width: 100%; }
 
 @media all and (max-width: 760px) {
-  #header .logo h1 {
-    display: none; } }
+  #header .logo {
+    display: none; }
+  #header .logo_phone {
+    display: flex; }
+    #header .logo_phone h1 {
+      display: none; } }
 
 #personal .header_landing {
   width: 100vw;

@@ -1,9 +1,13 @@
 @media all and (max-width: 760px) {
 	#header{
 		.logo{
-				h1{
-					display: none;
-				}
+				display: none;
 		}	
+		.logo_phone{
+			display: flex;
+			h1{
+				display: none;
+			}
+		}
 	}
 }

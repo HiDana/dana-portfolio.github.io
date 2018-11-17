@@ -16,6 +16,13 @@ class Header extends Component {
           </a>
         </div>
 
+        <div className="logo logo_phone">
+          <Link to="/">
+            <img src={logo} alt="hiDana" />
+            <h1>DANA</h1>
+          </Link>
+        </div>
+
         <div className="menu">
           <div className="portfoilo_link">
             <Link to="/portfolio">

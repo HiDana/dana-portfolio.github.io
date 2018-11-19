@@ -12,8 +12,7 @@ class Map extends Component {
               <span className="title-down">About me</span>
             </h2>
             <p className="text-intro">
-              We caught glimpses of faces at most of the windows peering
-              curiously at us and watching our progress through the town.
+              畢業於 國立宜蘭大學，主修 機械與機電工程學系
             </p>
 
             <figure>
@@ -29,37 +28,27 @@ class Map extends Component {
             </figure>
 
             <p>
-              We caught glimpses of faces at most of the windows peering
-              curiously at us and watching our progress through the town.{" "}
+              曾經擔任系學會會長
+              <br />
+              新創生技公司的 設計助理
             </p>
           </section>
+
           <section className="js-section" data-zoom-start="2">
             <h2>
-              <span className="title-up">Reykjanesta</span>
-              <span className="title-down">A Helping Hand</span>
+              <span className="title-up">Front-End Enginner</span>
+              <span className="title-down">雲圖科學計算</span>
             </h2>
-            <p>
-              We were six in all—a semi-scientific party. There was Miss J. A.
-              Hastie, a woman who has travelled much in Europe, Asia, Africa,
-              and America, and who is not unacquainted with our Colonies at the
-              Antipodes, or with the islands of the South Seas.{" "}
-            </p>
+            <p>自學 React 框架，以及獨自完成 國際貿易預測 專案 - HAI</p>
             <figure>
               <img
                 className="js-image"
                 data-pos="0.6"
                 src={require("../../../images/personal/map/journey/5.jpg")}
               />
-              <figcaption>
-                I was the geographer, whose mission it was to make a map of a
-                small portion of the country traversed.
-              </figcaption>
+              <figcaption>aaa</figcaption>
             </figure>
-            <p>
-              Next day rain, fog, and mist prevailed, so there was much
-              whist-playing and smoking below, and much blowing of whistle
-              above.{" "}
-            </p>
+            <p>的前端網頁開發 - HAI Product Development using React & Redux</p>
           </section>
           <section
             className="js-section"
@@ -67,14 +56,10 @@ class Map extends Component {
             data-stay="true"
           >
             <h2>
-              <span className="title-up">Krísuvíkurbjarg</span>
-              <span className="title-down">New Adventures</span>
+              <span className="title-up">Front-End Enginner</span>
+              <span className="title-down">驊宏資通</span>
             </h2>
-            <p>
-              Ashore one is first struck with the Faroese themselves: they are a
-              fine race, and retain their native politeness and independence of
-              character;{" "}
-            </p>
+            <p>不幸公司因為資金問題，跟隨老闆及其他夥伴移轉至 驊宏資通</p>
             <figure>
               <div className="js-gallery-content">
                 <img
@@ -87,12 +72,12 @@ class Map extends Component {
               </figcaption>
             </figure>
             <p>
-              We were to have made a start at eleven o'clock the next morning,
-              but fate was against us. At the appointed hour the members of the
-              party were ready and waiting, but guides, ponies, pack and riding
-              saddles, tents, provisions, etc.
+              - Product development using React & Docker - OBOR & SOLDATA
+              Product Assistant - Lecturer of the “front-end in big data” - UI
+              designer for the POC of OBOR
             </p>
           </section>
+
           <section className="js-section" data-zoom-start="1.5">
             <p>
               I strolled about, camera in hand, and found that many of the women
@@ -129,6 +114,7 @@ class Map extends Component {
               course of the notes and turned in;
             </p>
           </section>
+
           <section className="js-section" data-zoom-start="1.5">
             <h2>
               <span className="title-up">Hveragerði</span>

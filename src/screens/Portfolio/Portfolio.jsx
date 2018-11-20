@@ -18,8 +18,8 @@ class Portfolio extends Component {
         </div>
         <div className="projects">
           {prjsData.map((prj, i) => (
-            <Link to={`/project/${prj.route_name}`} key={i}>
-              <div className="project">
+            <div className="project">
+              <Link to={`/project/${prj.route_name}`} key={i}>
                 <div className="prj_img">
                   <img
                     src={require(`../../images/portfolio/landingPage/prj${i +
@@ -35,8 +35,8 @@ class Portfolio extends Component {
                     <p>{prj.prj_name}</p>
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
       </div>

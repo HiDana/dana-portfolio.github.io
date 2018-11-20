@@ -20,15 +20,13 @@ class Map extends Component {
               />
             </figure>
             <p>
-              現任於 北京漢雲益生 Herbmagic
-              <br />
-              資深前端工程師
+              Currently work in <br />
+              Herbmagic(北京漢雲益生) as Senior Front-End Engineer
             </p>
 
             <p>
-              致力於研究使用者體驗
-              <br />
-              並熱愛探討 CSS animation 及 AR/VR
+              Keep updated with UI/UX trends and intrigued by CSS animations and
+              AR/VR.
             </p>
 
             {/* <p>
@@ -38,33 +36,24 @@ class Map extends Component {
 
           <section className="js-section" data-zoom-start="2">
             <h2>
-              <span className="title-up">Front-End Enginner</span>
+              <span className="title-up">Senior Front-End Enginner</span>
               <span className="title-down">Now</span>
             </h2>
 
             <p>
-              React Web
-              <br />
-              React Native
-              <br />
-              微信 小程序
-              <br />
-              jQuery
-              <br />
-              SASS
-            </p>
-            <p>
-              Node.js <br />
-              RestFul API / Swagger <br />
-              Docker <br />
+              Front-End : <br /> React Web / React Native / WeChat mini program
+              / jQuery / SASS /
             </p>
 
-            <p>Line ChatBot</p>
             <p>
-              Sketch
-              <br />
-              Adobe AI / PS / XD
-              <br />
+              Back-End : <br /> Node.js / RestFul API / Swagger / Docker /
+            </p>
+            <p>
+              Design : <br />
+              Sketch / Adobe AI PS XD /
+            </p>
+            <p>
+              Other : <br /> Line ChatBot /
             </p>
           </section>
 
@@ -78,39 +67,31 @@ class Map extends Component {
               <span className="title-down">Future</span>
             </h2>
 
-            {/* <figure>
-              <div className="js-gallery-content">
-                <img
-                  src={require("../../../images/personal/map/journey/3.png")}
-                />
-              </div>
-              <figcaption>obor info support</figcaption>
-            </figure> */}
-
-            <p>hihi</p>
-          </section>
-
-          <section className="js-section" data-zoom-start="1.5">
-            <p>aaa</p>
             <p>
-              <blockquote>
-                <em>aaa</em>
-                <span> &mdash; Mark Twain</span>
-              </blockquote>
+              在未來，想要多瞭解關於後端的架構與團隊開發模式，並持續研究 AR/VR
+              的應用，並在於一個不同的環境，期許自己持續成長
             </p>
-            <p>aaa</p>
-            <figure>
-              <img
-                className="js-image"
-                data-pos="0.6"
-                src={require("../../../images/personal/map/journey/1.png")}
-              />
-              <figcaption>aaa</figcaption>
-            </figure>
-            <p>aaa</p>
           </section>
 
           <section className="js-section" data-zoom-start="1.5">
+            <h2>
+              <span className="title-down">Connect Me</span>
+            </h2>
+            <p>
+              If my profile interests you, please feel free to contact me via
+              email. Thank you.
+            </p>
+            <a href="mailto:holicdana@gmail.com">Email</a>
+            <br />
+            <a href="https://www.linkedin.com/in/dana-i-ting-chen/">Linkin</a>
+            <br />
+            <a href="https://github.com/HiDana">Github</a>
+            <br />
+            <a href="http://blog.hidana.me">Blog</a>
+            <br />
+          </section>
+
+          {/* <section className="js-section" data-zoom-start="1.5">
             <h2>
               <span className="title-up">Senior Front-End Enginner</span>
               <span className="title-down">Herbmagic</span>
@@ -170,9 +151,9 @@ class Map extends Component {
               activity she was at the time unaware.
             </p>
             <figure>
-              {/* <img
-                src={require("../../../images/personal/map/journey/3.jpg")}
-              /> */}
+              <img
+                src={require("../../../images/personal/map/journey/1.jpg")}
+              />
               <figcaption>
                 I had come to this part of the country intending to make a quick
                 survey of it as we traversed it from end to end.
@@ -199,7 +180,7 @@ class Map extends Component {
             className="js-section"
             data-stay="true"
             data-zoom-start="0.8"
-          />
+          /> */}
         </div>
       </div>
     );

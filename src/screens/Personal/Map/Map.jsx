@@ -39,20 +39,33 @@ class Map extends Component {
           <section className="js-section" data-zoom-start="2">
             <h2>
               <span className="title-up">Front-End Enginner</span>
-              <span className="title-down">Cirrus Data Insights</span>
+              <span className="title-down">Now</span>
             </h2>
 
-            <figure>
-              <img
-                className="js-image"
-                data-pos="0.6"
-                src={require("../../../images/personal/map/journey/2.png")}
-              />
-              <figcaption>Hai - International trade predictor</figcaption>
-            </figure>
+            <p>
+              React Web
+              <br />
+              React Native
+              <br />
+              微信 小程序
+              <br />
+              jQuery
+              <br />
+              SASS
+            </p>
+            <p>
+              Node.js <br />
+              RestFul API / Swagger <br />
+              Docker <br />
+            </p>
 
-            <p>自學 React 框架，以及獨自完成 國際貿易預測 專案 - HAI</p>
-            <p>HAI Product Development using React & Redux</p>
+            <p>Line ChatBot</p>
+            <p>
+              Sketch
+              <br />
+              Adobe AI / PS / XD
+              <br />
+            </p>
           </section>
 
           <section
@@ -61,29 +74,20 @@ class Map extends Component {
             data-stay="true"
           >
             <h2>
-              <span className="title-up">Front-End Enginner</span>
-              <span className="title-down">Azion Corporation</span>
+              <span className="title-up">Full Stack Enginner</span>
+              <span className="title-down">Future</span>
             </h2>
 
-            <figure>
+            {/* <figure>
               <div className="js-gallery-content">
                 <img
                   src={require("../../../images/personal/map/journey/3.png")}
                 />
               </div>
               <figcaption>obor info support</figcaption>
-            </figure>
+            </figure> */}
 
-            <p>不幸公司因為資金問題，跟隨老闆及其他夥伴移轉至 驊宏資通</p>
-            <p>
-              Product development using React & Docker
-              <br />
-              OBOR & SOLDATA Product Assistant
-              <br />
-              Lecturer of the “front-end in big data”
-              <br />
-              UI designer for the POC of OBOR
-            </p>
+            <p>hihi</p>
           </section>
 
           <section className="js-section" data-zoom-start="1.5">

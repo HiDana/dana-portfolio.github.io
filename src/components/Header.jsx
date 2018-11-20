@@ -42,9 +42,9 @@ class Header extends Component {
             </a>
           </div>
 
-          <div className="i18n">
+          {/* <div className="i18n">
             <p>zh</p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

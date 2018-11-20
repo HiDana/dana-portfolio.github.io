@@ -8,48 +8,53 @@ class Map extends Component {
         <div className="text">
           <section className="js-section" data-zoom-middle="2">
             <h2>
-              <span className="title-up">Dana Chen</span>
-              <span className="title-down">About me</span>
+              <span className="title-up">About me</span>
+              <span className="title-down">Hi, I'm Dana</span>
             </h2>
-            <p className="text-intro">
-              畢業於 國立宜蘭大學，主修 機械與機電工程學系
-            </p>
 
             <figure>
               <img
                 className="js-image"
                 data-pos="0.25"
-                src={require("../../../images/personal/map/journey/9.jpg")}
+                src={require("../../../images/personal/map/journey/1.png")}
               />
-              <figcaption>
-                All things come to an end, and so did our journey when we
-                reached the end of the main street in Reykjavik
-              </figcaption>
             </figure>
+            <p>
+              現任於 北京漢雲益生 Herbmagic
+              <br />
+              資深前端工程師
+            </p>
 
             <p>
-              曾經擔任系學會會長
+              致力於研究使用者體驗
               <br />
-              新創生技公司的 設計助理
+              並熱愛探討 CSS animation 及 AR/VR
             </p>
+
+            {/* <p>
+              Front End Engineer dedicated to developing user-friendly products and intrigued by UI/UX and user related effect like AR/VR and CSS animations. Also a passionate dessert maker and professional cat lover. :D
+            </p> */}
           </section>
 
           <section className="js-section" data-zoom-start="2">
             <h2>
               <span className="title-up">Front-End Enginner</span>
-              <span className="title-down">雲圖科學計算</span>
+              <span className="title-down">Cirrus Data Insights</span>
             </h2>
-            <p>自學 React 框架，以及獨自完成 國際貿易預測 專案 - HAI</p>
+
             <figure>
               <img
                 className="js-image"
                 data-pos="0.6"
-                src={require("../../../images/personal/map/journey/5.jpg")}
+                src={require("../../../images/personal/map/journey/2.png")}
               />
-              <figcaption>aaa</figcaption>
+              <figcaption>Hai - International trade predictor</figcaption>
             </figure>
-            <p>的前端網頁開發 - HAI Product Development using React & Redux</p>
+
+            <p>自學 React 框架，以及獨自完成 國際貿易預測 專案 - HAI</p>
+            <p>HAI Product Development using React & Redux</p>
           </section>
+
           <section
             className="js-section"
             data-zoom-start="2.5"
@@ -57,90 +62,74 @@ class Map extends Component {
           >
             <h2>
               <span className="title-up">Front-End Enginner</span>
-              <span className="title-down">驊宏資通</span>
+              <span className="title-down">Azion Corporation</span>
             </h2>
-            <p>不幸公司因為資金問題，跟隨老闆及其他夥伴移轉至 驊宏資通</p>
+
             <figure>
               <div className="js-gallery-content">
                 <img
-                  src={require("../../../images/personal/map/journey/6.jpg")}
+                  src={require("../../../images/personal/map/journey/3.png")}
                 />
               </div>
-              <figcaption>
-                An unexpected turn in our journey led us to many impressive
-                places.
-              </figcaption>
+              <figcaption>obor info support</figcaption>
             </figure>
+
+            <p>不幸公司因為資金問題，跟隨老闆及其他夥伴移轉至 驊宏資通</p>
             <p>
-              - Product development using React & Docker - OBOR & SOLDATA
-              Product Assistant - Lecturer of the “front-end in big data” - UI
-              designer for the POC of OBOR
+              Product development using React & Docker
+              <br />
+              OBOR & SOLDATA Product Assistant
+              <br />
+              Lecturer of the “front-end in big data”
+              <br />
+              UI designer for the POC of OBOR
             </p>
           </section>
 
           <section className="js-section" data-zoom-start="1.5">
-            <p>
-              I strolled about, camera in hand, and found that many of the women
-              and girls were quite anxious to be photographed;{" "}
-            </p>
+            <p>aaa</p>
             <p>
               <blockquote>
-                <em>
-                  Broad, wholesome, charitable views of men and things cannot be
-                  acquired by vegetating in one little corner of the earth all
-                  of one’s lifetime.
-                </em>
+                <em>aaa</em>
                 <span> &mdash; Mark Twain</span>
               </blockquote>
             </p>
-            <p>On one side of this wall there is a cod-liver oil factory</p>
+            <p>aaa</p>
             <figure>
               <img
                 className="js-image"
                 data-pos="0.6"
-                src={require("../../../images/personal/map/journey/10.jpg")}
+                src={require("../../../images/personal/map/journey/1.png")}
               />
-              <figcaption>
-                I was the geographer, whose mission it was to make a map of a
-                small portion of the country traversed.
-              </figcaption>
+              <figcaption>aaa</figcaption>
             </figure>
-            <p>
-              During the voyage I often wrote my notes somewhere about midnight,
-              and this night, while thus employed in my cabin, my "stable
-              companion" took it into his head that I was preventing him from
-              the proper enjoyment of his slumbers, and growled out something to
-              that effect; so, to avoid raising his wrath, I interrupted the
-              course of the notes and turned in;
-            </p>
+            <p>aaa</p>
           </section>
 
           <section className="js-section" data-zoom-start="1.5">
             <h2>
-              <span className="title-up">Hveragerði</span>
-              <span className="title-down">Sheer Faces of Rock</span>
+              <span className="title-up">Senior Front-End Enginner</span>
+              <span className="title-down">Herbmagic</span>
             </h2>
-            <p>
-              On the west side, and near to the north end of the fjord, there
-              are some very fine specimens of common basaltic land forms—two
-              grand corries,{" "}
-            </p>
+
             <figure>
               <img
                 className="js-image"
                 data-pos="0.6"
-                src={require("../../../images/personal/map/journey/7.jpg")}
+                src={require("../../../images/personal/map/journey/4.png")}
               />
-              <figcaption>
-                At once the music of the steam-whistle was resumed, and our ears
-                were again tortured by its shrill blasts.
-              </figcaption>
+              <figcaption>mini program</figcaption>
             </figure>
             <p>
-              On emerging from the fjord and putting out to sea, we encountered
-              a slight swell from the west, so the vessel rolled a bit; it was
-              really not much, but being the first time during the voyage, it
-              was much disliked by those who were not proof against mal de mer.
+              Product development using React & Docker
+              <br />
+              WeChat mini programs Developer
+              <br />
+              React web unit test
+              <br />
+              App development using React Native
+              <br />
+              UI designer
             </p>
           </section>
           <section
@@ -177,9 +166,9 @@ class Map extends Component {
               activity she was at the time unaware.
             </p>
             <figure>
-              <img
+              {/* <img
                 src={require("../../../images/personal/map/journey/3.jpg")}
-              />
+              /> */}
               <figcaption>
                 I had come to this part of the country intending to make a quick
                 survey of it as we traversed it from end to end.

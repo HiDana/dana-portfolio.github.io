@@ -4,8 +4,9 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial';
-  transition: .2s; }
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial';
+  transition: .2s;
+  text-align: inherit; }
 
 #header {
   position: relative;

@@ -16,16 +16,18 @@
 				],
 				"info": [
 					{
-						"title": "數據源",
+						"title": "Resources",
 						"content": [
-							"聯合國公開數據庫資料"
+							"UNData"
 						]
 					},
 					{
-						"title": "目標客群",
+						"title": "Target audience",
 						"content": [
-							"針對中盤商: 已有⽬目標的出⼝口國，期待多了解當地產品的可能需求為何",
-							"針對製造商: 已經有現成的產品，期待多開發可能的國際出⼝口市場"
+							"Wholesalers :",
+							"Which have set up target countries they want to export, but still need to study more about their potential needs",
+							"Manufacturers :",
+							"Which have mature products, and would like to find more potential international buyers"
 						]
 					}
 				]
@@ -40,17 +42,18 @@
 				],
 				"info": [
 					{
-						"title": "負責部分",
+						"title": "Responsibilities",
 						"content": [
-							"前端網頁開發",
-							"。 landing page",
-							"。 應用頁面",
-							" - 出口產品 / 推薦出口",
-							" - 進口產品 / 推薦進口"
+							"Whole product layout such as :",
+							"- Landing page",
+							"。 product feature introduction",
+							"。 login function",
+							"- Customized business intelligence pages",
+							"。 dashboards with various statistical charts"
 						]
 					},
 					{
-						"title": "運用技術",
+						"title": "Applied Techiniques",
 						"content": [
 							"- React",
 							"- Redux",
@@ -63,9 +66,9 @@
 		]
 	},
 	{
-		"prj_name": "傳票文字探勘",
+		"prj_name": "Voucher Text mining",
 		"route_name": "od-audit",
-		"tech": "D3.js / jquery",
+		"tech": "D3.js / jQuery",
 		"secret": false,
 		"icon": null,
 		"section": [
@@ -79,15 +82,15 @@
 				],
 				"info": [
 					{
-						"title": "目標",
+						"title": "Target",
 						"content": [
-							"運用傳票做斷字處理，並運用視覺化顯示傳票之間的關係"
+							"Display of correlation among vouchers via visualization of voucher text mining analytical results"
 						]
 					},
 					{
-						"title": "運用技術",
+						"title": "Applied Techiniques",
 						"content": [
-							"- jquery",
+							"- jQuery",
 							"- D3.js"
 						]
 					}
@@ -96,9 +99,9 @@
 		]
 	},
 	{
-		"prj_name": "舌象小屋",
+		"prj_name": "Tongue image collection",
 		"route_name": "tongue",
-		"tech": "小程序 / 微信",
+		"tech": "mini-program / WeChat",
 		"secret": false,
 		"icon": "",
 		"section": [
@@ -112,16 +115,16 @@
 				],
 				"info": [
 					{
-						"title": "應用平台",
+						"title": "Platform",
 						"content": [
-							"微信小程序"
+							"WeChat mini-program"
 						]
 					},
 					{
-						"title": "目標",
+						"title": "Target",
 						"content": [
-							"運用小程序採集 舌相照片",
-							"解決網頁版採集系統 照片及光源不清楚的部分，並藉由小程序收集到 微信會員資料"
+							"Use mini-program to collect tongue images for further analytical purposes",
+							"Solving technical problems of the tongue image collecting website such as lightless problems, and using weChat mini-program to collect  members’ information"
 						]
 					}
 				]
@@ -136,18 +139,18 @@
 				],
 				"info": [
 					{
-						"title": "負責部分",
+						"title": "Responsibilities",
 						"content": [
-							"小程序開發與部屬",
-							"- 舌相採集頁面",
-							"- 舌相清單"
+							"WeChat mini-program development and deployment",
+							"- Tongue image collecting page",
+							"- Tongue image collection display list"
 						]
 					},
 					{
-						"title": "運用技術",
+						"title": "Applied Techniques",
 						"content": [
-							"- 小程序",
-							"- 微信登入(小程序、web)"
+							"- WeChat Mini-program",
+							"- WeChat login function (WeChat mini-program, webpage)"
 						]
 					}
 				]
@@ -155,9 +158,9 @@
 		]
 	},
 	{
-		"prj_name": "文化部",
+		"prj_name": "Taiwan Ministry of Culture (MOC)",
 		"route_name": "od-moc",
-		"tech": "OSM",
+		"tech": "OSM / jQuery",
 		"secret": false,
 		"icon": null,
 		"section": [
@@ -171,15 +174,15 @@
 				],
 				"info": [
 					{
-						"title": "目標",
+						"title": "Target",
 						"content": [
-							"運用台灣故事島的資料，做文章斷詞，並用關鍵字顯示，讓人可以一目瞭然目前台灣的哪裡發生了哪些故事"
+							"MOC data workshop. Visualization of “Taiwan Story Map”. Users can search Taiwanese stories and where they happened by place, story type or other interested keyword"
 						]
 					},
 					{
-						"title": "運用技術",
+						"title": "Applied Techniques",
 						"content": [
-							"- jquery",
+							"- jQuery",
 							"- OSM(leafletjs/mapbox)"
 						]
 					}
@@ -188,9 +191,9 @@
 		]
 	},
 	{
-		"prj_name": "Mockingcat",
-		"route_name": "mockingcat",
-		"tech": "api.ai / line chatbot",
+		"prj_name": "Inv",
+		"route_name": "inv",
+		"tech": "node.js / mongodb",
 		"secret": false,
 		"icon": null,
 		"section": [
@@ -204,17 +207,19 @@
 				],
 				"info": [
 					{
-						"title": "目標",
+						"title": "Target",
 						"content": [
-							"運用 heroku 做後端 server 做一個會重複回話的 line 機器人"
+							"Build a robot to minotor exchange rate fluctuation for us and remind user to invest in time"
 						]
 					},
 					{
-						"title": "運用技術",
+						"title": "Applied Techniques",
 						"content": [
-							"- linechatbot",
-							"- python",
-							"- heroku"
+							"- line chatBot",
+							"- node.js",
+							"- mongodb",
+							"- heroku",
+							"- mlab"
 						]
 					}
 				]

@@ -13,7 +13,9 @@ class Portfolio extends Component {
             <h2>Portfolio</h2>
           </div>
           <div className="content">
-            <p>前端工程師 / 業餘甜點師 / 職業貓奴</p>
+            {/* <p>前端工程師 / 業餘甜點師 / 職業貓奴</p> */}
+            <p>Front-End Engineer /</p>
+            <p>Amateur pastry enthusiast</p>
           </div>
         </div>
         <div className="projects">

@@ -49,8 +49,9 @@ class Map extends Component {
 
             <p>
               Front-End : <br /> React Web / React Native / WeChat mini program
-              / jQuery / SASS /
+              / jQuery / SASS / OSM / D3.js
             </p>
+            <p>Jest / Enzyme /</p>
 
             <p>
               Back-End : <br /> Node.js / RestFul API / Swagger / Docker /
@@ -84,7 +85,7 @@ class Map extends Component {
 
           <section className="js-section" data-zoom-start="0">
             <h2>
-              <span className="title-down">Connect Me</span>
+              <span className="title-down">Contact Me</span>
             </h2>
             <p>
               If my profile interests you, please feel free to contact me via

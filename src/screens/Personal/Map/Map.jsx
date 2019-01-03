@@ -31,7 +31,7 @@ class Map extends Component {
             </p> */}
           </section>
 
-          <section className="js-section" data-zoom-start="2">
+          <section className="js-section" data-zoom-start="3">
             <p>
               Currently work in <br />
               Herbmagic (北京漢雲益生) as Senior Front-End Engineer
@@ -65,7 +65,7 @@ class Map extends Component {
             </p>
           </section>
 
-          <section className="js-section" data-zoom-start="1" data-stay="true">
+          <section className="js-section" data-zoom-start="2" data-stay="true">
             <h2>
               <span className="title-up">Full Stack Enginner</span>
               <span className="title-down">Future</span>
@@ -83,7 +83,7 @@ class Map extends Component {
             </p> */}
           </section>
 
-          <section className="js-section" data-zoom-start="0">
+          <section className="js-section" data-zoom-start="2">
             <h2>
               <span className="title-down">Contact Me</span>
             </h2>

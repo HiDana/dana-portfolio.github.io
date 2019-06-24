@@ -33,7 +33,7 @@ class Map extends Component {
 
           <section className="js-section" data-zoom-start="3">
             <p>
-              Currently work in <br />
+              Worked in <br />
               Herbmagic (北京漢雲益生) as Senior Front-End Engineer
             </p>
 

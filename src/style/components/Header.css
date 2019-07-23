@@ -33,7 +33,27 @@
         font-size: 16px;
         font-weight: normal;
         letter-spacing: 2.7px;
-        color: #121212; }
+        color: #121212;
+        padding: 8px 12px;
+        border: 1px solid #121212;
+        position: relative; }
+        #header .menu .portfoilo_link h4::before, #header .menu .portfoilo_link h4::after {
+          content: "";
+          width: 101%;
+          height: 1px;
+          background-color: #fff;
+          position: absolute;
+          transition: 0.3s; }
+        #header .menu .portfoilo_link h4::before {
+          top: -1px;
+          left: -102%; }
+        #header .menu .portfoilo_link h4::after {
+          bottom: -1px;
+          right: -102%; }
+      #header .menu .portfoilo_link:hover h4::before {
+        left: -1%; }
+      #header .menu .portfoilo_link:hover h4::after {
+        right: -1%; }
     #header .menu .menu_icon {
       width: 18px;
       height: 18px;

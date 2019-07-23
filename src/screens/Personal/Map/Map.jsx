@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import blog from "../../../images/personal/icon/blog.svg";
 import github from "../../../images/personal/icon/github.svg";
 import linkedin from "../../../images/personal/icon/linkedin.svg";
 import email from "../../../images/personal/icon/email.svg";
+import logo from "../../../images/hi_logo.png";
 
 class Map extends Component {
   render() {
@@ -49,7 +51,7 @@ class Map extends Component {
 
             <p>
               Front-End : <br /> React Web / React Native / WeChat mini program
-              / jQuery / SASS / OSM / D3.js
+              / jQuery / SASS / OSM / D3.js /
             </p>
             <p>Jest / Enzyme /</p>
 
@@ -110,6 +112,11 @@ class Map extends Component {
                 <img src={blog} alt="blog" />
                 Blog
               </a>
+
+              <Link to="/portfolio">
+                <img src={logo} alt="blog" />
+                <h4>Portfolio</h4>
+              </Link>
             </div>
             <br />
           </section>

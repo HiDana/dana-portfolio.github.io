@@ -9,6 +9,8 @@ import Project from "./screens/Project/Project";
 
 class App extends Component {
   render() {
+    console.log("process", process);
+
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div>

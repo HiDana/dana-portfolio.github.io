@@ -15,9 +15,19 @@ class App extends Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Header />
-          <Route exact path="/" component={Personal} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/project/:prjName" component={Project} />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/`}
+            component={Personal}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL}/portfolio`}
+            component={Portfolio}
+          />
+          <Route
+            path={`${process.env.PUBLIC_URL}/project/:prjName`}
+            component={Project}
+          />
         </div>
       </BrowserRouter>
     );

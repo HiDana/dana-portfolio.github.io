@@ -12,7 +12,7 @@ class App extends Component {
     console.log("process", process);
 
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={"https://portfolio.hidana.me"}>
         <div>
           <Header />
           <Route exact path="/" component={Personal} />

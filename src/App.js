@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 
@@ -12,14 +12,14 @@ class App extends Component {
     console.log("process", process);
 
     return (
-      <Router basename={"https://portfolio.hidana.me"}>
+      <HashRouter basename="/">
         <div>
           <Header />
           <Route exact path="/" component={Personal} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/project/:prjName" component={Project} />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }

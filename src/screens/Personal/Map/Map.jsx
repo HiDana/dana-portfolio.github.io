@@ -36,12 +36,12 @@ class Map extends Component {
           <section className="js-section" data-zoom-start="3">
             <p>
               Worked in <br />
-              Asclepius (北京汉云益生) as Senior Front-End Engineer
+              GingerDesign as Freelancer (Front-End Engineer)
             </p>
 
             <p>
-              Keep updated with UI/UX trends and intrigued by CSS animations and
-              AR/VR.
+              Keep dedicated to developing user-friendly products and intrigued
+              by UI/UX and user-related effects like CSS animations.
             </p>
 
             <h2>
@@ -50,14 +50,11 @@ class Map extends Component {
             </h2>
 
             <p>
-              Front-End : <br /> React Web / React Native / WeChat mini program
-              / jQuery / SASS / OSM / D3.js /
+              Front-End : <br /> Nextjs / React / TypeScript / styled-components
+              / SEO
+              <br />/ WeChat mini program / jQuery / SASS / D3.js /
             </p>
-            <p>Jest / Enzyme /</p>
 
-            <p>
-              Back-End : <br /> Node.js / RestFul API / Swagger / Docker /
-            </p>
             <p>
               Design : <br />
               Sketch / Adobe AI PS XD /

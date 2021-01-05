@@ -60,6 +60,8 @@
       margin-right: 20px; }
       #header .menu .menu_icon img {
         width: 100%; }
+      #header .menu .menu_icon:last-child {
+        margin-top: 5px; }
 
 @media all and (max-width: 760px) {
   #header .logo {

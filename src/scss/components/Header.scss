@@ -78,6 +78,9 @@
       img {
         width: 100%;
       }
+      &:last-child {
+        margin-top: 5px;
+      }
     }
   }
 }

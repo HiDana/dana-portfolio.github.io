@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://portfolio.hidana.me",
   "engines": {
-    "npm": "6.4.1",
-    "node": "8.12.0"
+    "npm": "6.13.4",
+    "node": "12.14.0"
   },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.2",

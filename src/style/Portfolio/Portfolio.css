@@ -64,9 +64,13 @@
       padding: 0;
       display: flex;
       flex-direction: column; }
-      #portfolio .title_block .title, #portfolio .title_block .content {
+      #portfolio .title_block .title,
+      #portfolio .title_block .content {
         display: flex;
         justify-content: center; }
+      #portfolio .title_block .content {
+        flex-direction: column;
+        align-items: center; }
     #portfolio .projects {
       flex-direction: column;
       align-items: center;
